@@ -1,0 +1,579 @@
+
+
+@media (min-width: 600px){
+  body{
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .component{
+    background-image: url("assets/1.jpeg");
+    height: 700px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 30px;
+    width:1230px;
+    height: 40px;
+    left: 200px;
+  }
+  .logo img{
+    height: 130px;
+  }
+  .logo button{
+    width: 72px;
+    height: 32px;
+    border:none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+  }
+  .component .content{
+    padding-left:100px ;
+    padding-right: 50px;
+  }
+  .component .upperLayer{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 60%;
+    position: relative;
+  }
+  .component .titles{
+    position:absolute;
+    color: white;
+    left: 400px;
+    top: 200px;
+    text-align: center;
+    
+  }
+  .titles h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  .titles p{
+    margin-top:10px ;
+    font-size: 1.8rem;
+  }
+  .component .user-input{
+    display: flex;
+    gap: 5px;
+    margin-left: 150px;
+  }
+  input[type=email]{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background: black;
+    border-color: red;
+    padding-left: 10px;
+    color: white;
+    opacity: 50%;
+  }
+  .user-input button{
+    width: 150px;
+    height: 55px;
+    color: white;
+    background-color: red;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+    
+  }
+  .tv{
+    background-color: black;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+  }
+  .tv .text{
+    margin-top: 200px;
+    margin-left: 100px;
+  }
+  .tv .video{
+    margin-top: 130px;
+    display: inline-block;
+  }
+  .video video{
+    position: relative;
+    margin-right: 280px;
+  }
+  .video img{
+    position: absolute;
+    top: 750px;
+    right: 200px;
+  }
+   h1{
+    font-size: 4rem;
+    font-weight: 700;
+  }
+   p{
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+  hr{
+    height: 5px;
+    border-color: gray;
+    background-color: gray;
+    padding: 0;
+    margin: 0px;
+  }
+  .download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    padding: 50px;
+    gap: 50px;
+  }
+  .download-card{
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    top: 1710px;
+    left: 285px;
+    background-color: black;
+    display: flex;
+    gap: 10px;
+  }
+  .download-card img{
+    height: 100%;
+  }
+  .download h1{
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  .download p{
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .left{
+    margin-left: 100px;
+  }
+  .dct h4{
+    margin: 0px;
+    font-size: 1rem;
+  }
+  .dct p{
+    margin: 0px;
+    font-size: 0.8rem;
+    color: #0071eb;
+  }
+  .dc{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+  }
+  .ktv{
+    background-color: black;
+    height: 600px;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .ktv img{
+    width: 45%;
+    margin-left: 100px;
+  }
+  .ktv h1{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .ktv p{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .ktv .ktext{
+    width: 500px;
+  }
+  .anytv{
+    background-color: black;
+    height: 600px;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 10px;
+  }
+  .anytext{
+    margin-left: 50px;
+    width: 45%;
+  }
+  .anyvid img{
+    position: absolute;
+    top: -130px;
+    left: -80px;
+    width: 720px;
+  }
+  .anyvid{
+    position: relative;
+    width: 30%;
+  }
+  .anyvid video{
+    margin-left: 50px;
+    margin-top: -85px;
+    width: 450px;
+  }
+  .qtv{
+    background-color: black;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  .question{
+    display: flex;
+    width: 60%;
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .question:hover{
+    background-color: rgb(75, 75, 75);
+  }
+  .answer{
+    background-color: rgb(75, 75, 75);
+    margin: 0px auto;
+    width: 60%;
+    text-align: left;
+    padding: 20px;
+  
+  }
+  .mainQ{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top:4px;
+  }
+  .footer{
+    background-color: black;
+    margin: 0px;
+    padding: 100px;
+    color: white;
+    text-align: center;
+  }
+  .footer p,h1{
+    margin: 0px;
+  
+  }
+  .footer h1{
+    font-family: Grand Hotel,cursive;
+    color: red;
+  }
+  a{
+    color: red;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover{
+    background-color: azure;
+  }
+}
+
+@media (max-width:600px) {
+  body{
+    background-color: black;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .component{
+    background-image: url("assets/1.jpeg");
+    height: 470px;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .component .upperLayer{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 70%;
+    position: relative;
+  }
+
+  .content{
+    color: white;
+    width: 100%;
+    height:450px;
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+  }
+  .content .logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+  }
+  .logo img{
+    width: 100px;
+  }
+  .logo button{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+  }
+  .titles{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .titles h1,p{
+    margin: 0px;
+  }
+  .titles h1{
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .titles p{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .user-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .user-input input[type=email]{
+    width: 400px;
+    height: 40px;
+    background-color: black;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid gray ;
+  }
+  .user-input input[type=email]:active{
+    border-color: green;
+  }
+  .user-input button{
+    padding: 15px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+  }
+  .video{
+    margin: 60px auto;
+    position: relative;
+    
+  }
+  .video video{
+    width: 350px;
+    
+  }
+  .video img{
+    position: absolute;
+    left: -50px;
+    width: 450px;
+    bottom: -80px;
+  }
+
+
+  .download{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    background-color: black;
+    color: white;
+  }
+  .download #descrip{
+    font-size: 1.4rem;
+  }
+  .download #pic{
+    width: 450px;
+    
+  }
+  .download .download-card{
+    display: flex;
+    width: 250px;
+    height: 40px;
+    border:1px solid gray;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    gap: 10px;
+    position: absolute;
+    left: 106px;
+    bottom: 50px;
+    background-color: black;
+  }
+  .download-card img{
+    height: 100%;
+  }
+  .download-card .dc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dct h4{
+    margin: 0px;
+    font-size: 0.91rem;
+  }
+  .download-card .dct{
+    display: flex;
+    flex-direction: column;
+  }
+  .dct p{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9rem;
+    color: #0071eb;
+  }
+
+  .anytv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-bottom: 100px;
+  }
+  .anytv video{
+    width: 270px;
+    
+  }
+  .anyvid{
+    margin: 60px;
+    position: relative;
+  }
+  .anytv img{
+    width: 450px;
+    position: absolute;
+    left: -90px;
+    bottom: -150px;
+  }
+
+  .ktv{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+  }
+  .ktv img{
+    width: 450px;
+  }
+
+  .qtv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+  }
+  .question{
+    display: flex;
+    background-color: rgb(90, 90, 90);
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+  }
+  .question:hover{
+    background-color: rgb(100, 100, 100);
+  }
+  .answer{
+    background-color: rgb(90, 90, 90);
+    padding: 10px;
+    text-align: left;
+
+  }
+  .qtv p{
+    margin-top: 10px;
+  }
+  .footer{
+    background-color: black;
+    margin: 0px;
+    padding: 100px;
+    color: white;
+    text-align: center;
+  }
+  .footer p,h1{
+    margin: 0px;
+  
+  }
+  .footer h1{
+    font-family: Grand Hotel,cursive;
+    color: red;
+  }
+  a{
+    color: red;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  a:hover{
+    background-color:green;
+  }
+}
